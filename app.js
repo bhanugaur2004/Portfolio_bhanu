@@ -1,6 +1,8 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const path = require('path');
+require('dotenv').config(); // Load env variables
+
 
 const app = express();
 
